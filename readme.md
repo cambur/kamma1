@@ -1,10 +1,15 @@
 # How to run
 <p>Run:</p>
+
 ```console
-$ npm install```
+$ npm install
+```
+
 And then
+
 ```console
-$ npm run dev```
+$ npm run dev
+```
 
 ## Testing
 <p>
