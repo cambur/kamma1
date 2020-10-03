@@ -1,5 +1,5 @@
 # How to run
-<p>Run:</p>
+<p>Run this command in the root of the project:</p>
 
 ```console
 $ npm install
