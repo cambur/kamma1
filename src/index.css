@@ -36,12 +36,10 @@ html {
     border-radius: 5px;
 }
 
-
 .logo {
     color: #34485c;
     padding-bottom: 2em;
 }
-
 
 .header-wrapper {
     display: flex;
@@ -102,12 +100,11 @@ h2 {
     text-align: center;
 }
 
-
 @media only screen
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
-    .flex-container {
+    .footer-nav ul {
         display: block;
     }
 
