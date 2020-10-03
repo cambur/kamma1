@@ -1,0 +1,123 @@
+html {
+    background: repeating-linear-gradient(
+            135deg,
+            #FFF,
+            #CCC 4px,
+            #FFF 4px,
+            #CCC 4px
+    );
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.svg-logo path, .svg-logo polygon {
+    fill: #34485c;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    padding: 2vw;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+.content {
+    background: #FFFFFF;
+    border: 1px #999 solid;
+    padding: 1em 2em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.logo {
+    color: #34485c;
+    padding-bottom: 2em;
+}
+
+
+.header-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.read_more {
+    text-align: right;
+    height: 100%;
+}
+
+.read_more a {
+    text-decoration: none;
+    color: #34485c;
+}
+
+.read_more svg {
+    vertical-align: middle;
+}
+
+.footer-nav a {
+    color: #2c3e50;
+    border-left: 1px solid #2c3e50;
+    padding-left: 0.8em;
+}
+
+
+.footer-nav a:hover {
+    color: #000;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em 3rem;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.center {
+}
+
+.flex-item {
+    margin: 0.3em;
+    line-height: 1em;
+    text-align: center;
+}
+
+
+@media only screen
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .flex-container {
+        display: block;
+    }
+
+    .footer-nav a {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .flex-item {
+        margin: 1em 0;
+    }
+
+}
