@@ -1,4 +1,7 @@
-# How to run
+# Kamma Test (part 1)
+<p>Create this simple web page layout to the best standards you know:</p>
+
+## How to run
 <p>Run this command in the root of the project:</p>
 
 ```console
